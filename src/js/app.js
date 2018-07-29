@@ -3,7 +3,7 @@ var userAccount;
 
 function startApp() {
     //Replace "YOUR_CONTRACT_ADDRESS" with your contract address
-    var contractAddress = "0xf331c70b2d12c7eef19f9bf27727c909dd2e13df";
+    var contractAddress = "xxxxx";
     contract = new web3js.eth.Contract(contractABI, contractAddress);
 
     var accountInterval = setInterval(function () {
