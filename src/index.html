@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethereum dApps QuickStart</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <nav>
+    <div class="alert alert-primary" role="alert">
+      <h1><a href="">Ethereum dApps QuickStart</a></h1>
+      <p>This is simple dApps template</p>
+    </div>
+  </nav>
+  <hr/>
+
+  <!-- <h2>Preparation</h2>
+  1. Replace contractAddress to your contract address.</br>
+  => "index.html" var contractAddress = "YOUR_CONTRACT_ADDRESS"</br>
+
+  2. Replace contract_abi to your contract ABI.</br>
+  => "js/contract_abi.js" var contractABI = []</br>
+  <hr/>
+
+  <h2>How to use</h2>
+  1. Connect Metamask. <br>
+  2. Input text in textbox. <br>
+  3. Click Set to set text in contract. <br>
+  4. Wait transaction is confirmed. <br>
+  5. Click Get to get text from contract.<br> -->
+
+  <h2></h2>
+  <input type="text" id="num">
+  <input type="button" class="btn btn-primary" value="Set" onClick="set()">
+  <input type="button" class="btn btn-primary" value="Get" onClick="get()">
+
+</div>
+
+  <!-- <table class="table">
+    <thead>
+      <tr>
+        <th><th>
+      </tr>
+    </thead>
+  </table> -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/contract_abi.js"></script>
+
+</body>
+
+</html>
