@@ -3,10 +3,7 @@ var HDWalletProvider = require("truffle-hdwallet-provider");
 
 var mnemonic = readFileSync('./mnemonic', 'utf-8').replace(/\r?\n/g,"");
 var accessToken = readFileSync('./infura_access_token', 'utf-8');
-// var mnemonic = readFileSync('./mnemonic', 'utf-8');
-// var accessToken = readFileSync('./infura_access_token', 'utf-8');
-console.log(mnemonic);
-console.log(accessToken);
+
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
