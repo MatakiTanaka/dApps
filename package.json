@@ -26,6 +26,7 @@
     "material-design-icons": "^3.0.1",
     "materialize-css": "^1.0.0-rc.2",
     "npm": "^6.2.0",
-    "truffle-hdwallet-provider": "0.0.5"
+    "truffle-hdwallet-provider": "0.0.5",
+    "zeppelin-solidity": "^1.11.0"
   }
 }
